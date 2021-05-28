@@ -1,6 +1,6 @@
 function binarySearch(x, a) {
-    let n = a.length
-    let left = 0, right = n-1
+    let n = a.length //15
+    let left = 0, right = n-1 
     while (left<right) {
     let middle = Math.floor((left+right)/2)
     if( x <= a[middle]){

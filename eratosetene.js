@@ -7,7 +7,6 @@ while(x <= max) {
     for (let i = 2 * x; i <= n; i += x) p[i] = false //x의배수는 합성수
     while(!p[++x]) //다음소수 검색
 
-
     //쌍둥이 소수 출력
     for(let i=2; i<=n-2; i++) { 
         if(p[i] && p[i+2]) {
