@@ -14,7 +14,7 @@ console.log(solution(str))
 //relplace
 function solution(s) {
     let answer=s;
-    answer.replace(/A/g, '#')
+    answer = answer.replace(/A/g, '#')
     return answer
 }
 const str = 'BANANA';
